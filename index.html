@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Custom Components</title>
+  </head>
+  <body>
+    <script src="./components/top-nav/top-nav.js" defer></script>
+    <top-nav current-page="Home"></top-nav>
+    <main>
+      <h1>Welcome</h1>
+      <p>
+        This is a test of how to make custom html elements. The goal is to try
+        an make a top menu bar that can be used on several pages on a website,
+        but where the content is encapsulated in one place.
+      </p>
+      <p><em>NOTE!</em> Only this page (home) and about are functional.</p>
+      <div>
+        <h2>Resources</h2>
+        Here is a list of resources used to develop this:
+        <ul>
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements"
+              >MDN documentation on using custom elements</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=zmqGV_bQ21Y"
+              >This YouTube video about Web Components</a
+            >
+          </li>
+          <li>
+            <a href="https://placehold.co/"
+              >Placehold to serve the placeholder image used here.</a
+            >
+          </li>
+        </ul>
+      </div>
+      <img src="https://placehold.co/4000" alt="Placeholder image" />
+    </main>
+  </body>
+</html>
